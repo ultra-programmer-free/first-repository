@@ -1,0 +1,41 @@
+{
+  "name": "react-practicb",
+  "version": "1.0.0",
+  "description": "Reactの練習",
+  "main": "js/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint js",
+    "lint:fix": "eslint js --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "build": "webpack --mode production",
+    "build:dev": "webpack",
+    "dev": "webpack serve --mode development"
+  },
+  "author": "ultra-programmer",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "9.1.1",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "autoprefixer": "10.4.20",
+    "css-loader": "^7.1.1",
+    "eslint": "9.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "8.5.3",
+    "postcss-loader": "8.1.1",
+    "prettier": "3.2.5",
+    "style-loader": "4.0.0",
+    "tailwindcss": "4.0.8",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
